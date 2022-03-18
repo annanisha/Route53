@@ -2,4 +2,4 @@
 
 We are going to create an IAM ploicy for a user to access only spefic subdomains on Route 53.
 
-Suppose
+Suppose you have company with branches world wide and you have to allow each branch admin to only access 
