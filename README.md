@@ -18,4 +18,32 @@ Create IAM user via Identity and Access Management (IAM) > Users > Add users opt
 
 * Step3: Create a policy for the user to access its branch subdomain.
 
-* Step4: 
+IAM policy
+```{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "S0",
+            "Effect": "Allow",
+            "Action": [
+                "route53:GetHostedZone",
+                "route53:ChangeResourceRecordSets",
+                "route53:ListResourceRecordSets"
+            ],
+            "Resource": "arn:aws:route53:::hostedzone/<Hosted zone ID of domain from route 53>"
+        },
+        {
+            "Sid": "S1",
+            "Effect": "Allow",
+            "Action": [
+                "route53:ListHostedZones",
+                "route53:GetHostedZoneCount",
+                "route53:ListHostedZonesByName"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+```
+
+You can view the Hosted zone ID via 
