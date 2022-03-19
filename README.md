@@ -50,4 +50,8 @@ You can view the Hosted zone ID via Route 53 > Hosted zones as shown below:
 
 ![zone](https://user-images.githubusercontent.com/100779249/159102455-7e52d7d5-17eb-4ec1-8b25-a831b2bfd91a.png)
 
-* Step4: Attach the poilcy to desired IAM user.
+* Step4: Finally attach the poilcy to desired IAM user.
+
+Great!!! you have now allowed the Kerala Admin to manage only Kerala DNS zone and Delhi Admin to manage Delhi DNS zone.
+
+With the above policy the users can view, create, delete DNS records of their correspoding DNS hosted zones, and can't manage any other DNS zones in the route 53 dashboard.
