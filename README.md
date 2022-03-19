@@ -4,4 +4,7 @@ We are going to create an IAM ploicy for a user to access only spefic subdomain 
 
 Suppose you have company(anishababu.tech) with branches in different states(for example: kerala.anishababu.tech, delhi.anishababu.tech) and you have to allow each branch admin to only access to their branch DNS zone. You can setup a IAM user with subdomain zone access privilges.
 
-![533333333r](https://user-images.githubusercontent.com/100779249/159091226-5c4818e3-10d3-4e60-94de-dd35fd178777.png)
+![456666](https://user-images.githubusercontent.com/100779249/159098593-8d5f4c8b-6b1d-4eb0-8d73-565826cbb516.png)
+
+## Step 1
+
