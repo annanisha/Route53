@@ -46,4 +46,7 @@ IAM policy
 }
 ```
 
-You can view the Hosted zone ID via 
+You can view the Hosted zone ID via Route 53 > Hosted zones as shown below:
+
+![zone](https://user-images.githubusercontent.com/100779249/159102455-7e52d7d5-17eb-4ec1-8b25-a831b2bfd91a.png)
+
